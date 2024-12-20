@@ -54,39 +54,41 @@ body {
 
 .image {
   text-align: center;
-  height: 150px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
 .image img {
   margin-top: 15px;
-  width: 160px;
+  width: 100px;
 }
 
 .temp,
 .location,
 .country {
   margin-top: 3px;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   text-align: center;
   color: indigo;
 }
 
 .temp {
+  margin-top: 20px;
   font-weight: 500;
 }
 
 .location {
-  color: indianred;
+  color: darkgreen;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
+  margin: 5px 0;
 }
 
 .country {
   font-size: 20px;
   font-weight: 500;
-  color: darkseagreen;
+  color: firebrick;
 }
 
 .cord {
