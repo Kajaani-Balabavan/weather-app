@@ -128,6 +128,7 @@ function App() {
       setLat(data.coord.lat);
       setLon(data.coord.lon);
       setCityNotFound(false);
+      setError(null);
 
       let iconCode = data.weather[0].icon;
       console.log(iconCode);
