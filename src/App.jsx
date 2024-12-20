@@ -76,7 +76,7 @@ WeatherDetails.propTypes = {
 };
 
 function App() {
-  let APIkey = "9b81005c6823ef06b90c452435fc70e5";
+  const APIkey = import.meta.env.VITE_OPENWEATHER_API_KEY;
   const [text, setText] = useState("jaffna");
   const [icon, setIcon] = useState(snow);
   const [temp, setTemp] = useState(0);
